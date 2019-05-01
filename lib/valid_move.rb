@@ -5,9 +5,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def valid_move?(board, index)
   if index <= 9 
     return true 
-  elsif 
-    index == "X" || index == "O"
-      return false 
+    return false  if index == "X" || index == "O"
   end
 end
 
