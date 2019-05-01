@@ -3,7 +3,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 # code your #valid_move? method here
 
 def valid_move?(board, index)
-  return true unless index <= 9
+  return true if index <= 9
 end
 
 
