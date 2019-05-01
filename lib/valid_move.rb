@@ -5,7 +5,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def valid_move?(board, index)
   if index <= 9 
     return true 
-    return false  if index == "X" || index == "O"
+    return false  if board[index] == "X" || board[index] == "O"
   end
 end
 
