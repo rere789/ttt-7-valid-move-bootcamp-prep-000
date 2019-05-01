@@ -4,6 +4,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def valid_move?(board, index)
   return true if index <= 9
+else 
+  return false
 end
 
 
